@@ -1,0 +1,34 @@
+baseURL= http://practice.automationtesting.in/
+myaccountlink=//a[contains(text(),'My Account')]
+usernametxb=//input[@id='username']
+passwordtxb= //input[@id='password']
+loginbtn=//input[@value='Login']
+username1 = testuser001
+password1 = 1Drefnam1!
+actual_text1 = //strong[contains(text(),'')]
+exp_text1= testuser001
+signoutlink= //a[contains(text(),'Sign out')]
+username2 = testuser123
+password2 = 1Drefnam1
+actual_text2 = //div[@id='body']//li[1]
+exp_text2= Invalid username.
+username3 = testuser001
+password3 = 
+actual_text3 = //div[@id='body']//li[1]
+exp_text3= Password is required.
+username4 = 
+password4 = 1Drefnam1!
+actual_text4 = //div[@id='body']//li[1]
+exp_text4= Username is required.
+username5 = 
+password5 = 
+actual_text5 = //div[@id='body']//li[1]
+exp_text5= Username is required.
+username6 = TEXTUSER001
+password6 = 1DREFNAM1!
+actual_text6 = ul.woocommerce-error:nth-child(1) > li
+exp_text6= TESTUSER001
+username7 = testuser001
+password7 = 1Drefnam1!
+actual_text7 = //h2[contains(text(),'Login')]
+exp_text7= Login

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.anblicks.testng1.TestNG_TC1_Login_Validcredentials"/>
+      <class name="com.anblicks.testng1.TestNG_TC2_Login_Invalidcredentials"/>
+      <class name="com.anblicks.testng1.TestNG_TC3_Login_Invalidcredentials"/>
+      <class name="com.anblicks.testng1.TestNG_TC4_Login_Invalidcredentials"/>
+      <class name="com.anblicks.testng1.TestNG_TC5_Login_Invalidcredentials"/>
+      <class name="com.anblicks.testng1.TestNG_TC6_Login_HandleCasesensitive"/>
+      <class name="com.anblicks.testng1.TestNG_TC7_Login_Authentication"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
